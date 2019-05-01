@@ -2,7 +2,7 @@
 
 const google_places = require('./googleplaces');
 
-class GooglePlacesController 
+class GooglePlacesController
 {
     // Constructor
     constructor(apiKey, verbose=false)

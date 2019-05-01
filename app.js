@@ -1,9 +1,8 @@
 
 var express = require('express');
 var app = express();
-var db = require('./db');
 
-var PlaceController = require('./foodfinder/PlaceController');
-app.use('/mstill3', PlaceController);
+var googlefusion = require('./api/googlefusion');
+app.use('/api', googlefusion);
 
 module.exports = app;

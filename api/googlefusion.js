@@ -109,7 +109,7 @@ function bestofall(googleData, yelpData)
 
 
 const GOOGLE_API_KEY = "AIzaSyCQUvuEdmTO1JRZWHILlN2hbWuCJ8PyrN8";
-const google_places = require('./googleplacescontroller');
+const google_places = require('./googleplaces/googleplacescontroller');
 const places = google_places.client(GOOGLE_API_KEY);
 
 // ======================================
